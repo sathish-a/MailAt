@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_attach"
+        android:orderInCategory="100"
+        android:title="@string/action_attach"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/attachment"
+        />
+    <item
+        android:id="@+id/action_reschedule"
+        android:orderInCategory="200"
+        android:title="@string/reschedule_event"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/save"
+        />
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="300"
+        android:title="@string/action_cancel"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_lock_power_off"
+        />
+
+
+</menu>

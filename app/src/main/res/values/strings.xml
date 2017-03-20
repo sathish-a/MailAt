@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Mail@</string>
+    <string name="title_activity_mail_list">MailList</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_create">Add new</string>
+    <string name="action_attach">Attach</string>
+    <string name="action_set">Set Event</string>
+    <string name="action_cancel">Cancel Event</string>
+    <string name="menu_delete">Delete Event</string>
+    <string name="reschedule_event">Reschedule event</string>
+    <string name="menu_cancel">Cancel Event</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <!--Replace with your own ad unit id. -->
+    <string name="banner_ad_unit_id"> ca-app-pub-7073780208948080/3108741051 </string>
+    <string name="ad_unit_id"> ca-app-pub-7073780208948080/3145767052</string>
+    <!--test-->
+    <!--<string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string name="action_support"><![CDATA[Help & Feedback]]></string>
+    <string name="title_activity_fab">Fab</string>
+    <string name="Info_msg">"\t\t"The purpose to turn on the access is allowing this app to send mail from your Gmail account."\n\t\t"
+        It requires access to sign in to your account , By default Gmail has turned down the access from signing in through other devices.
+        "\n\t\t"So turning on will make this application to work up to its functionality.
+        You can turn on by going to Gmail settings , click Gmail settings in this app it will take you to the settings page.
+        "\n\t\t"Like how you sign in to Microsoft Outlook to manage your emails ,
+        however this application will not let you to manage your mails instead allows you to schedule one and send it without your intervention.
+        "\n\n\n\t\t"Enjoy happy mailing!!!
+
+    </string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="alert_msg">Mail will be sent only after the attachment gets uploaded.
+        Upload time depends on your network bandwidth.
+        Therefore the scheduled time and the time the mail actually sent will be different with respect to the size of the file gets uploaded.
+
+
+    </string>
+
+</resources>

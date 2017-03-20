@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kewldevs.sathish.mail.MailList">
+ <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+
+     />
+    <item
+        android:id="@+id/action_create"
+        android:orderInCategory="100"
+        android:title="@string/action_create"
+        app:showAsAction="never"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/action_support"
+        android:orderInCategory="400"
+        android:title="@string/action_support"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_clear_all"
+        android:orderInCategory="200"
+        android:title="@string/action_clear_all"
+        app:showAsAction="never"
+        />
+</menu>

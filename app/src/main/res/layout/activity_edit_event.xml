@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kewldevs.sathish.mail.EditEvent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/tool_bar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="00-00-0000"
+                android:id="@+id/tvDate"
+                android:layout_weight="0.51"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/cal"
+                android:background="@drawable/calendar"
+                android:onClick="onDatePick"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="00:00"
+                android:id="@+id/tvTime"
+                android:layout_weight="0.29"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/time"
+                android:background="@drawable/clock"
+                android:onClick="onTimePick"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/to"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="To">
+
+            <requestFocus />
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/sub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject">
+        </EditText>
+
+        <EditText
+            android:id="@+id/compose"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Compose email"
+            android:inputType="textCapSentences|textMultiLine"
+            android:scrollbars="vertical"
+            android:gravity="top|left"
+            android:isScrollContainer="true"
+            android:singleLine="false"
+            android:scrollHorizontally="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Attacment Size:"
+            android:paddingBottom="3dp"
+            android:paddingTop="2dp"
+            android:id="@+id/tvSize" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listAttach1"
+
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
