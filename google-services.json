@@ -8,20 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:69664761765:android:9b7981e35a606170",
+        "mobilesdk_app_id": "REPLACE YOURS",
         "android_client_info": {
           "package_name": "com.kewldevs.sathish.mail"
         }
       },
       "oauth_client": [
         {
-          "client_id": "69664761765-nm1e555ed84ufv9qa39m2rccd1f42gh4.apps.googleusercontent.com",
+          "client_id": "REPLACE YOURS",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCJKf_PS-GvENZoJkN1fMcGyVzLozZMVBg"
+          "current_key": "SECRET"
         }
       ],
       "services": {
