@@ -106,6 +106,7 @@ public class Mail extends javax.mail.Authenticator {
             _multipart.addBodyPart(messageBodyPart);
 
 // Put parts in message
+
             msg.setContent(_multipart);
 
             final Thread thread = new Thread(new Runnable(){

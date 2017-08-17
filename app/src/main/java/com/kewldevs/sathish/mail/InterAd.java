@@ -30,16 +30,17 @@ public class InterAd {
         mInterstitialAd = new InterstitialAd(mContext);
         // Defined in res/values/strings.xml
         mInterstitialAd.setAdUnitId(mContext.getString(R.string.ad_unit_id));
-
+        final AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
                 mActivity.finish();
+                mInterstitialAd.loadAd(adRequest);
             }
         });
 
                 if (!mInterstitialAd.isLoading() && !mInterstitialAd.isLoaded()) {
-                    final AdRequest adRequest = new AdRequest.Builder().build();
+
                     mActivity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
